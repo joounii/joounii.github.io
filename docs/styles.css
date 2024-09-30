@@ -1,0 +1,38 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  background: black;
+  background: linear-gradient(to bottom, hsl(273, 100%, var(--bg-lightness-top)), hsl(273, 100%, var(--bg-lightness-bottom)));
+  transition: background 0.2s ease;
+  
+  /* Set default lightness values */
+  --bg-lightness-top: 5%;
+  --bg-lightness-bottom: 25%;
+}
+
+body {
+  min-height: 3000px;
+}
+
+.container {
+  background-color: rgba(27, 27, 27, 0.8);
+  width: 80%;
+  max-width: 1200px;
+  margin: 50px auto;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.content {
+  color: white;
+  text-align: center;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.spacer {
+  /* height: 3000px; Make the page scrollable */
+  
+}
