@@ -7,13 +7,37 @@
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <div class="container">
-        <div class="content">
-            <h1>Scroll down to see the background color transition!</h1>
-            <p>Keep scrolling to transition from black to gray.</p>
-        </div>
+  <!-- <div class="container">
+    <div class="content">
+        <h1>Joounii</h1>
+        <p>Home</p>
       </div>
-  
+  </div> -->
+  <!-- Create header -->
+  <header>
+    <nav class="tabs">
+      <ul>
+        <li><a href="#" class="tab-link" data-tab="home">Home</a></li>
+        <li><a href="#" class="tab-link" data-tab="about">About</a></li>
+        <li><a href="#" class="tab-link" data-tab="test">Test</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Load diffrent tabs -->
+  <div class="content">
+    <section id="home" class="tab-content active">
+      <div id="home-content"></div>
+    </section>
+
+    <section id="about" class="tab-content">
+      <div id="about-content"></div>
+    </section>
+
+    <section id="test" class="tab-content">
+      <div id="test-content"></div>
+    </section>
+  </div>
   <script src="script.js"></script>
 </body>
 </html>
