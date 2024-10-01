@@ -16,24 +16,6 @@ body {
   min-height: 3000px;
 }
 
-.container {
-  background-color: rgba(27, 27, 27);
-  width: 80%;
-  max-width: 1200px;
-  min-height: 90%;
-  margin: 50px auto;
-  padding: 20px;
-  border-radius: 10px;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
-}
-
-.content {
-  color: white;
-  text-align: center;
-  padding: 20px;
-  font-family: Arial, sans-serif;
-}
-
 * {
   margin: 0;
   padding: 0;
@@ -46,7 +28,14 @@ body {
 
 /* Header and Tabs */
 header {
+  background-color: #333;
   padding: 10px 0;
+  width: 80%;
+  max-width: 1200px;             /* Set width to 80% */
+  margin: 0 auto;           /* Center the header horizontally */
+  border-bottom-left-radius: 15px; /* Round bottom-left corner */
+  border-bottom-right-radius: 15px; /* Round bottom-right corner */
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Optional: add shadow for depth */
 }
 
 nav ul {
@@ -91,4 +80,22 @@ h2 {
 
 p {
   font-size: 16px;
+}
+
+.container {
+  background-color: rgba(27, 27, 27);
+  width: 80%;
+  max-width: 1200px;
+  min-height: 90%;
+  margin: 25px auto;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.content {
+  color: white;
+  text-align: center;
+  padding: 20px;
+  font-family: Arial, sans-serif;
 }
