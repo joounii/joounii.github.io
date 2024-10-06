@@ -31,11 +31,11 @@ header {
   background-color: #333;
   padding: 10px 0;
   width: 80%;
-  max-width: 1200px;             /* Set width to 80% */
-  margin: 0 auto;           /* Center the header horizontally */
-  border-bottom-left-radius: 15px; /* Round bottom-left corner */
-  border-bottom-right-radius: 15px; /* Round bottom-right corner */
-  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Optional: add shadow for depth */
+  max-width: 1200px;
+  margin: 0 auto;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 nav ul {
@@ -101,12 +101,12 @@ p {
 }
 
 .content a {
-  color: grey;
+  color: rgb(209, 209, 209);
   text-decoration: none;
 }
 
 .content a:hover {
-  color: lightgrey;
+  color: rgb(113, 113, 113);
 }
 
 .content ul,
