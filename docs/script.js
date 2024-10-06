@@ -1,5 +1,6 @@
 window.addEventListener('scroll', function () {
-  const maxScroll = document.body.scrollHeight - window.innerHeight;
+  maxScroll = document.body.scrollHeight - window.innerHeight;
+  // const maxScroll = 3000;
   const scrollPosition = window.scrollY;
   const scrollPercentage = scrollPosition / maxScroll;
 
@@ -28,6 +29,13 @@ document.addEventListener('DOMContentLoaded', function() {
       .then(response => response.text())
       .then(data => {
         document.getElementById(contentId).innerHTML = data;
+        
+        // Get the height of the active tab content
+        const activeTabContent = document.getElementById(contentId);
+        const newHeight = activeTabContent.scrollHeight;
+
+        // Update the body height based on the active tab's content height
+        document.body.style.minHeight = `${newHeight}px`;
       })
       .catch(error => {
         console.error('Error loading content:', error);
