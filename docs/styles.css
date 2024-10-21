@@ -136,7 +136,7 @@ p {
   border-radius: 50%;
   object-fit: cover;
   display: block;
-  margin: 0 auto 15px;  
+  /* margin: 0 auto 15px;   */
 }
 
 table {
