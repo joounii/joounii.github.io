@@ -1,15 +1,24 @@
 /* Background */
-html, body {
-  margin: 0;
-  padding: 0;
-  height: 100%;
-  background: black;
-  background: linear-gradient(to bottom, hsl(273, 100%, var(--bg-lightness-top)), hsl(273, 100%, var(--bg-lightness-bottom)));
-  transition: background 0.2s ease;
-  
-  /* Set default lightness values */
-  --bg-lightness-top: 5%;
-  --bg-lightness-bottom: 25%;
+body {
+  margin: auto;
+  font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+  overflow: auto;
+  background: linear-gradient(315deg, rgba(101,0,94,1) 3%, rgba(120,45,91,1) 38%, rgba(101,45,190,1) 68%, rgba(177,45,228,1) 98%);
+  animation: gradient 60s ease infinite;
+  background-size: 400% 400%;
+  background-attachment: fixed;
+}
+
+@keyframes gradient {
+  0% {
+      background-position: 0% 0%;
+  }
+  50% {
+      background-position: 100% 100%;
+  }
+  100% {
+      background-position: 0% 0%;
+  }
 }
 
 body {
