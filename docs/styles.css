@@ -139,6 +139,16 @@ p {
   /* margin: 0 auto 15px;   */
 }
 
+.contact-icon {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  margin: 0 auto 0px;
+  /* object-fit: cover; */
+  /* display: block; */
+  /* margin: 0 auto 15px;   */
+}
+
 table {
   margin: 0 auto;
   border-collapse: collapse;
@@ -151,4 +161,17 @@ th, td {
   padding: 8px;
   text-align: center;
   width: 33%;
+}
+
+.project-panel {
+  padding: 20px;
+  /* text-align: center; */
+  background-color: rgba(27, 27, 27);
+  width: 80%;
+  max-width: 1200px;
+  min-height: 90%;
+  margin: 25px auto;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
 }
